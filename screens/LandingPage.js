@@ -12,7 +12,7 @@ const LandingPage = ({ navigation }) => {
               </View>
                 <View style={style.iconWrapper}>
                   <TouchableOpacity
-                //  onPress = {() => navigation.navigate('CameraPage')}
+                  onPress = {() => navigation.navigate('CameraSite')}
                   activeOpacity={0.5}>
                 <Image
                 source={require('C:/myreactnativeapps/passthepigsgame/assets/images/cameraicon.png')}
