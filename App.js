@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Pigs from './screens/Pigs';
 import LandingPage from './screens/LandingPage';
-//import CameraPage from './screens/CameraPage';
+import CameraSite from './screens/CameraSite';
 
 const Stack = createStackNavigator();
 
@@ -25,10 +25,10 @@ function App() {
           component={LandingPage}
         />
 
-        {/* <Stack.Screen
-          name="CameraPage"
-          component={CameraPage}
-        /> */}
+         <Stack.Screen
+          name="CameraSite"
+          component={CameraSite}
+        /> 
 
       </Stack.Navigator>
     </NavigationContainer>
